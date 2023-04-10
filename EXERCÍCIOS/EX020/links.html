@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        .especial::after {
+            content:"⇦" ;
+            color: black;
+        }
+        
+        .especial::before {
+            content:" ⇨ " ;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+     <h1>Visitando minhas paginas WEB</h1>
+     <li><a href="https://www.facebook.com/pablojfogacaBR/" target="_blank" class="especial">Facebook</a></li>
+     <li><a href="https://twitter.com/fogacapablo?lang=bg" target="_blank" class="especial">Twitter</a></li>
+     <li><a href="https://www.youtube.com/channel/UCbpbEVExlmDZPTucpwllXgw" target="_blank" class="especial">Canal do Youtube</a></li>
+</body>
+</html>

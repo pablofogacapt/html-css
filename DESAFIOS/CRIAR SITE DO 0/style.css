@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(111, 246, 194);
+    margin: 0px;
+    }
+
+    @font-face {
+        font-family: 'idroid';
+        src: url('idroid.otf') format('opentype');
+    }
+
+header {
+    background-image: linear-gradient(to bottom, rgb(2, 221, 2) 1%,green);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0px;
+    text-shadow: 2px 2px 3px rgba(128, 128, 128, 0.833);
+    }
+
+header > h1{
+    text-align: center;
+    font-size: 40px;
+    }
+    
+
+header > p {
+    text-align: center;
+    }
+
+nav {
+    background-image: linear-gradient(green, rgb(1, 102, 1));
+    font-size: 15px;
+    text-align: start;
+    padding: to right, 10px;
+    padding-bottom: 5px;
+}
+
+nav > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 5px 5px 6px gray;
+    box-shadow: to center, 5px 5px 5px gray;
+}
+
+main > h1 {
+    color: rgb(0, 91, 35);
+    text-align: center;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(0, 45, 0, 0.581);
+
+}
+
+main > h2 {
+    background-image: linear-gradient( to right, rgba(16, 221, 16, 0.558), rgb(255, 255, 255) 100%);
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 84, 0);
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
